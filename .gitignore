@@ -66,3 +66,20 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio / IDEs
+.vs/
+out/
+*.user
+*.suo
+.vscode/
+.idea/
+
+# Conan generated files (in case any land in the repo root)
+conanbuild*.bat
+conanrun*.bat
+conanbuildenv*.bat
+conanrunenv*.bat
+deactivate_conan*.bat
+conan_toolchain.cmake
+graph_info.json

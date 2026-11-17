@@ -1,0 +1,3 @@
+[submodule "third_party/rttr-prebuilt"]
+	path = third_party/rttr-prebuilt
+	url = https://github.com/EugeneHSS/rttr-prebuilt.git

@@ -1,0 +1,41 @@
+#cmakedefine PLATFORM_WIN32
+#cmakedefine PLATFORM_LINUX
+
+#cmakedefine USING_MSVC
+#cmakedefine USING_CLANG
+
+#cmakedefine ENABLE_LOG_CONSOLE
+#cmakedefine ENABLE_LOG_FILE
+#cmakedefine ENABLE_TRACY
+
+#cmakedefine USE_RTTR
+#cmakedefine USE_EDITOR
+#cmakedefine USE_ASSIMP
+#cmakedefine USE_VULKAN
+#cmakedefine USE_VULKAN_BOOTSTRAP
+
+#cmakedefine ENABLE_EXCEPTIONS
+#cmakedefine BOOST_EXCEPTION
+
+#cmakedefine WITH_STACKTRACE
+#cmakedefine USE_BOOST_STACKTRACE
+
+#cmakedefine EXPORT_ENGINE
+#cmakedefine ENABLE_TESTING
+
+#cmakedefine USE_ENTT_ECS
+#cmakedefine USE_GAIA_ECS
+
+#cmakedefine TREAT_WARNINGS_AS_ERRORS
+#cmakedefine USE_SIMD_JSON
+
+#cmakedefine X86_ARCH
+#cmakedefine ARM_ARCH
+
+#cmakedefine USE_SHADER_COMPILER
+#cmakedefine USE_SHADER_C
+#cmakedefine USE_SPIRV_REFLECT
+
+#cmakedefine VULKAN_DEBUG
+
+#define TDS_PROJECT_ROOT "@CMAKE_SOURCE_DIR@"
